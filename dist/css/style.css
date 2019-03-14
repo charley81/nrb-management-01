@@ -1,6 +1,143 @@
+/* CSS Variables */
+:root {
+  --primary-color: #dd6e42;
+  --secondary-color: #4f6d7a;
+  --light-color: #eaeaea;
+}
+
 /* Base Elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Major Mono Display", monospace;
+}
 
 /* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.serif {
+  font-family: "Montserrat", sans-serif;
+}
+
+.block {
+  display: block;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: var(--light-color);
+  color: #333;
+}
+
+.bg-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+}
+
+.m-heading {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+.p-1 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-1 {
+  margin: 1.5rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+.m-3 {
+  margin: 3rem;
+}
+
+.my-1 {
+  margin: 1.5rem 0;
+}
+.my-2 {
+  margin: 1.5rem 0;
+}
+.my-3 {
+  margin: 2rem 0;
+}
 
 /* Title */
 
@@ -10,7 +147,7 @@
 
 /* Article Body */
 
-/* Main */
+/* Showcase */
 
 /* Img Gallery */
 

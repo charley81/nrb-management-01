@@ -141,6 +141,9 @@
 
 /* XL Screen */
 @media (min-width: 1300px) {
+  .item {
+    border-radius: none;
+  }
   .l-heading {
     font-size: 8rem;
   }
